@@ -20,6 +20,6 @@ public class ContainerCounterVisual : MonoBehaviour
 
     private void CounterCounter_OnPLayerGrabbedObject(object sender, EventArgs e)
     {
-        animator.SetTrigger("OpenClose");
+        animator.SetTrigger(OPEN_CLOSE);
     }
 }
